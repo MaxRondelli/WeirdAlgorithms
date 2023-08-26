@@ -28,7 +28,6 @@ void solution(int n) {
     }
 }
 
-
 int main() {
     
     int n; 
