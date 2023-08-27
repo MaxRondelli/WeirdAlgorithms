@@ -11,23 +11,10 @@ using namespace std;
  * 
 */
 
-void missingNumber() {
-    // int n;
-    // cout << "Enter the max range (integer): ";
-    // cin >> n;
-
-    // cout << "Enter " << n-1 << " numbers:";
-    // int numbers;
-    // int counter = 0;
-    
-    // if(counter != n-1) {
-    //     if(numbers <= n && numbers > 0) {
-    //         cin >> numbers;
-    //         counter++;
-    //     }
-    // }
-    
-    long long int n, input, sum = 0;
+void missingNumber() {    
+    int input;
+    int sum = 0;
+    int n;
     cin >> n;
 
     for (int i = 0 ; i < n - 1 ; i++) {
